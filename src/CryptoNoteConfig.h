@@ -67,7 +67,8 @@ const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "blocks.dat";
 const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.dat";
 const char     CRYPTONOTE_BLOCKSCACHE_FILENAME[]             = "blockscache.dat";
 const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
-const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
+const char     
+_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "blockchainindices.dat";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 } // parameters
@@ -85,7 +86,7 @@ const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  200;    //by def
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
 //TODO This port will be used by the daemon to establish connections with p2p network
-const int      P2P_DEFAULT_PORT                              = ;
+const int      P2P_DEFAULT_PORT                              = 1001;
 //TODO This port will be used by the daemon to interact with simlewallet
 const int      RPC_DEFAULT_PORT                              = ;
 
